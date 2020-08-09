@@ -5,10 +5,9 @@ chmod 755 fix-permissions
 
 fix-permissions .
 echo "After  fix-permissions"
-
+echo $PWD
+echo `ls -lah`
 /s2i/bin/assemble
-
-
 
 rc=$?
 
