@@ -1,5 +1,7 @@
 #!/bin/bash
 echo "Before assembling"
+echo "STI_SCRIPTS_PATH: " ${STI_SCRIPTS_PATH} 
+chmod 755 fix-permissions
 
 fix-permissions .
 echo "After  fix-permissions"
